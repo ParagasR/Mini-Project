@@ -1,5 +1,17 @@
-header {
+*{
+    background-color: #2e464d;
+}
 
+header h1{
+display: flex;
+color: #d694dd;
+justify-content: center;
+}
+header p{ 
+   display: flex;
+    color: white;
+    justify-content:center;
+    text-align: center;
 }
 
 .card {
