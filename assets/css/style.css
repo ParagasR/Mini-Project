@@ -1,3 +1,7 @@
+* {
+    background-color: #2E464D;
+}
+
 header {
 
 }
@@ -10,5 +14,7 @@ header {
     border: solid;
 }
 footer {
-
+    display: flex;
+    justify-content: center;
+    color: #D694DD;
 }
