@@ -1,22 +1,30 @@
+:root{
+    --text-color:#d694dd;
+    --background-color:#2E464D;
+    --code-color:white;
+}
 * {
-    background-color: #2E464D;
+    background-color:var( --background-color);
 }
 
 header h1{
     display: flex;
-    color: #d694dd;
-    justify-content: center;
+    color: var(--text-color);
+    justify-content center;
 }
 
 header p{ 
    display: flex;
-    color: white;
+    color: var(--code-color);
     justify-content:center;
     text-align: center;
 }
 
 .card {
-
+display: flex;
+border-style: dashed;
+background-color:var(--background-color);
+color:var(--text-color);
 }
 
 .card h2 {
@@ -26,5 +34,5 @@ header p{
 footer {
     display: flex;
     justify-content: center;
-    color: #D694DD;
+    color: var(--text-color);
 }
