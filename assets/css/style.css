@@ -1,6 +1,9 @@
-*{
-    background-color: #2e464d;
+* {
+    background-color: #2E464D;
 }
+
+header {
+>>>>>>> 0bd5fe01c3908d7b3bfbdd8107af6abf4ff5ac91
 
 header h1{
 display: flex;
@@ -22,5 +25,7 @@ header p{
     border: solid;
 }
 footer {
-
+    display: flex;
+    justify-content: center;
+    color: #D694DD;
 }
