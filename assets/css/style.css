@@ -25,6 +25,9 @@ display: flex;
 border-style: dashed;
 background-color:var(--background-color);
 color:var(--text-color);
+flex-direction: row;
+flex-wrap: wrap;
+margin:5px;
 }
 
 .card h2 {
