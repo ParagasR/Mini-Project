@@ -2,14 +2,12 @@
     background-color: #2E464D;
 }
 
-header {
->>>>>>> 0bd5fe01c3908d7b3bfbdd8107af6abf4ff5ac91
-
 header h1{
-display: flex;
-color: #d694dd;
-justify-content: center;
+    display: flex;
+    color: #d694dd;
+    justify-content: center;
 }
+
 header p{ 
    display: flex;
     color: white;
